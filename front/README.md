@@ -7,7 +7,8 @@ in the directory you want the project in.
 
 Move files out of nexted directory to main folder. And move manage.py to root directory.
 
-Next to start the server run:
+Next to start the server:
+Navigate the the "Front" folder in terminal and run:
 python manage.py runserver
 
 server will be on http://127.0.0.1:8000 or localhost:8000
