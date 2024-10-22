@@ -1,0 +1,236 @@
+#main {
+  padding-top: 75px;
+}
+
+@media (min-width: 992px) {
+  #main {
+    padding-top: 105px;
+  }
+}
+
+@font-face {
+  font-family: "Hackershack Font";
+  src: 
+  url("fonts/jaapokkisubtract-regular-webfont.woff") format("woff"),
+  url("fonts/jaapokkisubtract-regular-webfont.otf") format("opentype");
+}
+
+.navbar-brand {
+  font-family: "Hackershack Font";
+}
+
+.hs-bg-primary {
+  background-color: #f35a5a;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  border: 2px solid transparent;
+  transition: border-bottom .2s, color .2s;
+}
+
+#mainNav .navbar-nav  li.nav-item  a.nav-link:hover {
+  color: #f35a5a;
+  background: none;
+}
+
+#mainNav .navbar-nav  li.nav-item  a.nav-link.active {
+    background-color: #f35a5a;
+    color: #fff;
+    border-color: #f35a5a;
+}
+
+#mainNav .navbar-nav  li.nav-item  a.nav-link.active:hover {
+  background: none;
+  color: #f35a5a;
+}
+
+
+@media (min-width: 992px) {
+  .masthead .masthead-avatar { 
+    height: 240px;
+    width: auto;
+  }
+}
+
+.masthead .masthead-avatar { 
+  height: 240px;
+  width: auto;
+}
+
+
+@media (min-width: 992px) {
+  .masthead {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+.masthead {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+/* TODO: add image later */
+/* .masthead {
+  background-image: url("../img/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+
+/*About*/
+.experience{
+  background-color: white;
+  padding-left: 10px;
+}
+.experience .title {
+  text-align: center;
+}
+.ptg{
+  background-color: none;
+  padding: 10px 0;
+}
+.research{
+  /* background-color: rgb(255,130,0); */
+  padding: 10px 0;
+}
+.title-research {
+  text-align: center;
+}
+.education{
+  background-color: white;
+}
+
+.education .title {
+  text-align: center;
+}
+.education .ut{
+  background-image: url("../img/utkcheckerboard.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rgb(255,130,0); */
+  padding: 10px 0;
+  padding-left: 10px;
+}
+.education .mtsu{
+  background-color: rgb(0,102,204);
+  padding: 10px 0;
+  padding-left: 10px;
+}
+.wcs {
+  background-color: none;
+}
+
+.skills .title {
+  text-align: center;
+}
+
+.links {
+  padding-left: 10px;
+  color: #000;
+}
+
+.base-footer{
+  color: #000;
+  padding-bottom: 10px;
+}
+
+.sitemap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  flex: 1;
+  padding: 0 10px;
+}
+
+
+/*End about*/
+
+.chs-bg-primary {
+  background-color: navy;
+}
+
+
+/* media styles */
+.video-icons {
+  font-size: 1.8rem;
+  transition: 0.3s;
+}
+
+.video-icons:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.icon-color {
+  color: #777;
+  transition: 0.3s;
+}
+
+.icon-color:hover {
+  color: #777;
+  opacity: 0.8;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.video-uploader {
+  color: #333;
+  font-weight: 800;
+  transition: 0.3s;
+}
+
+.video-uploader:hover {
+  color: #000;
+  font-weight: 800;
+  text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+
+}
+
+.link-text {
+  color: #333;
+  transition: .3s;
+
+}
+
+.link-text:hover {
+  color: #555;
+  text-decoration: none;
+  transition: .3s;
+}
+
+/* end media styles */
+
+
+/* Cookbook */
+.cookbook{
+  background-color: white;
+  padding-left: 10px;
+}
+.cookbook .title {
+  text-align: center;
+}
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.card-body {
+  flex: 1;
+}
+.card-footer {
+  padding: 10px;
+}
+
+
+/* end cookbook styles */
