@@ -17,7 +17,7 @@
         <!-- Masthead Heading-->
         <h1 class="masthead-heading text-uppercase mb-0">NameDrop</h1>
         <!-- Masthead Subheading-->
-        <p class="masthead-subheading font-weight-light mb-0">Data holder</p>
+        <!-- <p class="masthead-subheading font-weight-light mb-0">Data holder</p> -->
         <!-- Icon Divider-->
         <div class="divider-custom divider-light">
             <img class="masthead-avatar mb-5" src="{% static 'img/logo.png' %}" alt="" type="image/png" />     
@@ -25,12 +25,22 @@
     </div>
 </header>
 
-<div class="container text-center mt-5">
-    <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Enter your prompt here..." aria-label="User input">
-        <button class="btn btn-outline-secondary" type="button">Submit</button>
+<body>
+    <div class="container Prompt">
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <h2>User Prompt</h2>
+                <input type="text" id="userPrompt" placeholder="Enter your prompt here">
+                <button onclick="submitPrompt()">Submit</button>
+            </div>
+            <div class="col-md-6 text-center"> 
+                <h2>Answer</h2>
+                <div class="answer-box" id="answerDisplay">Your answer will appear here.</div>
+            </div>
+        </div>
     </div>
-</div>
+</body>
+
 {% endblock %}
 
 
